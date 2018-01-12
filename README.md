@@ -12,4 +12,10 @@ $ git log		查看提交历史
 $ git reflog	查看命令历史
 $ git log -- graph	查看分支合并图
 
+$ git stash
+$ git stash list
+$ git stash apply
+$ git stash pop
+$ git stash apply stash@{0}
+
 ```
