@@ -67,6 +67,8 @@ $ git push origin —tags	将所有本地未推送的标签推送至远程
 
 ### git 内部原理
 
+[git官方电子书](https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%82%E5%91%BD%E4%BB%A4%E5%92%8C%E9%AB%98%E5%B1%82%E5%91%BD%E4%BB%A4)
+
 #### 底层命令和高层命令
 
 - 底层（plumbing）命令
