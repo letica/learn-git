@@ -1,5 +1,7 @@
 ## git
 
+分布式版本控制系统。
+
 ```
 $ ssh-keygen -t rsa -C "youremail@example.com"
 
