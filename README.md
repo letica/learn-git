@@ -32,6 +32,13 @@ $ git log		查看提交历史
 $ git reflog	查看命令历史
 $ git log -- graph	查看分支合并图
 
+# 分支操作
+$ git branch -b feature-branch  新建分支
+$ git checkout branch-name      切换分支
+$ git branch [-a]   查看分支
+$ git branch -d feature-branch      删除本地分支
+$ git push origin :feature-branch      将删除推送至远程
+
 # 使用暂存
 $ git stash
 $ git stash list
@@ -48,7 +55,6 @@ $ git tag -d v0.1	删除标签
 $ git push origin :reg/tags/v0.1	已推送至远程的标签 -d 删除后需要 push
 $ git push origin v0.1	将标签推送至远程
 $ git push origin —tags	将所有本地未推送的标签推送至远程
-
 ```
 
 > HEAD	当前版本
