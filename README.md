@@ -7,4 +7,9 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 $ git remote add origin git@server-name:path/repo-name.git
 $ git push -u origin master
+
+$ git log		查看提交历史
+$ git reflog	查看命令历史
+$ git log -- graph	查看分支合并图
+
 ```
